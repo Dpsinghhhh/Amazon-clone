@@ -8,8 +8,8 @@ export let cart=[{
 export function addToCart(productId){
 let matchingItem;
         cart.forEach((cartItem)=>{
-            if(productId===item.productId){
-                matchingItem=item;
+            if(productId===cartItem.productId){
+                matchingItem=cartItem;
             }
         });
         if(matchingItem){
