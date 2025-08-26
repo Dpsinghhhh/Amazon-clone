@@ -753,5 +753,4 @@ export const products = [
     return new Clothing(productDetails);
   }
   return new Product(productDetails);
-  console.log(inheritance);
 });
