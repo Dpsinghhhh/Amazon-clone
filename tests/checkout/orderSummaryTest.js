@@ -65,6 +65,5 @@ describe('test suite: renderOrderSummary', () => {
     expect(cart[0].productId).toEqual(productId2);
 
     document.querySelector('.js-test-container').innerHTML = '';
-    
   });
 });
