@@ -66,4 +66,4 @@ describe('test suite: renderOrderSummary', () => {
 
     document.querySelector('.js-test-container').innerHTML = '';
   });
-});
+});import {renderPaymentSummary} from '../../scripts/checkout/paymentSummary.js';
